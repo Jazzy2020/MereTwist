@@ -1,0 +1,2389 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation>Remove all Data Theorem Attachments</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>968b504edb8bc49018c3672b8a9619dd</copied_from>
+        <copied_from_name>Twistlock Remove Attachment File</copied_from_name>
+        <description>Remove all previously downloaded DataTheorem Hh attachments</description>
+        <ih_action>false</ih_action>
+        <internal_name>dt_remove_attachment_files</internal_name>
+        <label_cache>[{"name":"{{action.data_source}}","label":"action➛DataSource_1","type":"action","ref":""},{"name":"{{action.import_set_table_name}}","label":"action➛Import set table name","type":"action","ref":""},{"name":"{{action.datasource_2}}","label":"action➛DataSource_2","type":"action","ref":""},{"name":"{{step[01ae5abe-b572-4b0d-9043-d2097959d461].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[01ae5abe-b572-4b0d-9043-d2097959d461].rmvstat}}","label":"step➛Script step➛RmvStat","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>6796dc811bf7a094c4311f49b04bcbb9</latest_snapshot>
+        <master_snapshot>239610c11bf7a094c4311f49b04bcb2c</master_snapshot>
+        <name>DT Remove Attachment Files </name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f60950481b73ac90c4311f49b04bcb3e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>DT Remove Attachment Files </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_f60950481b73ac90c4311f49b04bcb3e</sys_update_name>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=f60950481b73ac90c4311f49b04bcb3e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>f60950481b73ac90c4311f49b04bcb3e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_id>ba0990481b73ac90c4311f49b04bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">720990481b73ac90c4311f49b04bcb01</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f60950481b73ac90c4311f49b04bcb3e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>remvstat</field>
+        <id>f60950481b73ac90c4311f49b04bcb3e</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_id>3a0990481b73ac90c4311f49b04bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f60950481b73ac90c4311f49b04bcb3e</table>
+        <value>{{step[01ae5abe-b572-4b0d-9043-d2097959d461].rmvstat}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=f60950481b73ac90c4311f49b04bcb3e^sys_idNOT INb60950481b73ac90c4311f49b04bcb76"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DT Remove Attachment Files ">f60950481b73ac90c4311f49b04bcb3e</action>
+        <cid>01ae5abe-b572-4b0d-9043-d2097959d461</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b60950481b73ac90c4311f49b04bcb76</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b60950481b73ac90c4311f49b04bcb76"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b60950481b73ac90c4311f49b04bcb76</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_id>720950481b73ac90c4311f49b04bcbfd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:53</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  var deleteLog = "DataTheorem Remove Attachment Files from Data Source: " + inputs.dataSource1 + " &lt;Delete Count -&gt; ";
+  var deleteCount = 0;
+  var rmvStat = true;
+  
+  var attachment = new GlideSysAttachment();
+  var agr = attachment.getAttachments('sys_data_source', inputs.dataSource1.sys_id);
+  
+  while(agr.next()){
+    //gs.info('agr: ' + agr.getValue('sys_id'));
+    attachment.deleteAttachment(agr.getValue('sys_id'));
+    deleteCount = deleteCount+1;
+  }
+
+  gs.info(deleteLog + deleteCount);
+  
+  var deleteLog = "DataTheorem Remove Attachment Files from Data Source: " + inputs.dataSource2 + " &lt;Delete Count -&gt; ";
+  var deleteCount = 0;
+  var attachment = new GlideSysAttachment();
+  var agr = attachment.getAttachments('sys_data_source', inputs.dataSource2.sys_id);
+  
+  while(agr.next()){
+    //gs.info('agr: ' + agr.getValue('sys_id'));
+    attachment.deleteAttachment(agr.getValue('sys_id'));
+    deleteCount = deleteCount+1;
+  }
+  gs.info(deleteLog + deleteCount);
+  
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b60950481b73ac90c4311f49b04bcb76</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_id>7a0950481b73ac90c4311f49b04bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b60950481b73ac90c4311f49b04bcb76"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>b60950481b73ac90c4311f49b04bcb76</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_id>320950481b73ac90c4311f49b04bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dataSource</field>
+        <id>b60950481b73ac90c4311f49b04bcb76</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_id>fe0950481b73ac90c4311f49b04bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_b60950481b73ac90c4311f49b04bcb76</table>
+        <value>{{action.data_source}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dataSource1</field>
+        <id>b60950481b73ac90c4311f49b04bcb76</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:53</sys_created_on>
+        <sys_id>da965c811bf7a094c4311f49b04bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_b60950481b73ac90c4311f49b04bcb76</table>
+        <value>{{action.data_source}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dataSource2</field>
+        <id>b60950481b73ac90c4311f49b04bcb76</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:53</sys_created_on>
+        <sys_id>16965c811bf7a094c4311f49b04bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_b60950481b73ac90c4311f49b04bcb76</table>
+        <value>{{action.datasource_2}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>b60950481b73ac90c4311f49b04bcb76</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_id>f60950481b73ac90c4311f49b04bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=b60950481b73ac90c4311f49b04bcb76^sys_idNOT IN56965c811bf7a094c4311f49b04bcbd1,5a965c811bf7a094c4311f49b04bcbcb"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dataSource2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">b60950481b73ac90c4311f49b04bcb76</model>
+        <model_id>b60950481b73ac90c4311f49b04bcb76</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_b60950481b73ac90c4311f49b04bcb76</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>56965c811bf7a094c4311f49b04bcbd1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dataSource1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">b60950481b73ac90c4311f49b04bcb76</model>
+        <model_id>b60950481b73ac90c4311f49b04bcb76</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_b60950481b73ac90c4311f49b04bcb76</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5a965c811bf7a094c4311f49b04bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=b60950481b73ac90c4311f49b04bcb76^sys_idNOT INfe0950481b73ac90c4311f49b04bcbbf"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2b886be7-e776-4ee0-8553-1a94c1861380</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rmvstat</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>rmvstat</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">b60950481b73ac90c4311f49b04bcb76</model>
+        <model_id>b60950481b73ac90c4311f49b04bcb76</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_b60950481b73ac90c4311f49b04bcb76</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fe0950481b73ac90c4311f49b04bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=f60950481b73ac90c4311f49b04bcb3e^sys_idNOT IN181614cd1bb7a094c4311f49b04bcb45,fe0950481b73ac90c4311f49b04bcb43"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=3e19d1a6-d6f4-4bea-8349-f4c404c90936</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_data_source</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>datasource_2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>DataSource_2</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="DT Remove Attachment Files ">f60950481b73ac90c4311f49b04bcb3e</model>
+        <model_id>f60950481b73ac90c4311f49b04bcb3e</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_f60950481b73ac90c4311f49b04bcb3e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:26:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>181614cd1bb7a094c4311f49b04bcb45</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:26:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=5dbd625b-5e02-4de4-98d6-473e20c40335</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>{"display":"DT Vuln Defn","value":"130d81031be7e4d046224379b04bcb07"}</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>data_source</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>DataSource_1</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="DT Remove Attachment Files ">f60950481b73ac90c4311f49b04bcb3e</model>
+        <model_id>f60950481b73ac90c4311f49b04bcb3e</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_f60950481b73ac90c4311f49b04bcb3e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fe0950481b73ac90c4311f49b04bcb43</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:26:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=f60950481b73ac90c4311f49b04bcb3e^sys_idNOT IN720990481b73ac90c4311f49b04bcb01"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=6e7f1871-60ff-482f-b289-a67c7fb1439e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>remvstat</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>RemvStat</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="DT Remove Attachment Files ">f60950481b73ac90c4311f49b04bcb3e</model>
+        <model_id>f60950481b73ac90c4311f49b04bcb3e</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_f60950481b73ac90c4311f49b04bcb3e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>720990481b73ac90c4311f49b04bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=f60950481b73ac90c4311f49b04bcb3e^sys_idNOT INb60950481b73ac90c4311f49b04bcb76"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DT Remove Attachment Files ">f60950481b73ac90c4311f49b04bcb3e</action>
+        <cid>01ae5abe-b572-4b0d-9043-d2097959d461</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b60950481b73ac90c4311f49b04bcb76</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b60950481b73ac90c4311f49b04bcb76"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b60950481b73ac90c4311f49b04bcb76</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_id>720950481b73ac90c4311f49b04bcbfd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:53</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  var deleteLog = "DataTheorem Remove Attachment Files from Data Source: " + inputs.dataSource1 + " &lt;Delete Count -&gt; ";
+  var deleteCount = 0;
+  var rmvStat = true;
+  
+  var attachment = new GlideSysAttachment();
+  var agr = attachment.getAttachments('sys_data_source', inputs.dataSource1.sys_id);
+  
+  while(agr.next()){
+    //gs.info('agr: ' + agr.getValue('sys_id'));
+    attachment.deleteAttachment(agr.getValue('sys_id'));
+    deleteCount = deleteCount+1;
+  }
+
+  gs.info(deleteLog + deleteCount);
+  
+  var deleteLog = "DataTheorem Remove Attachment Files from Data Source: " + inputs.dataSource2 + " &lt;Delete Count -&gt; ";
+  var deleteCount = 0;
+  var attachment = new GlideSysAttachment();
+  var agr = attachment.getAttachments('sys_data_source', inputs.dataSource2.sys_id);
+  
+  while(agr.next()){
+    //gs.info('agr: ' + agr.getValue('sys_id'));
+    attachment.deleteAttachment(agr.getValue('sys_id'));
+    deleteCount = deleteCount+1;
+  }
+  gs.info(deleteLog + deleteCount);
+  
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b60950481b73ac90c4311f49b04bcb76</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_id>7a0950481b73ac90c4311f49b04bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b60950481b73ac90c4311f49b04bcb76"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>b60950481b73ac90c4311f49b04bcb76</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_id>320950481b73ac90c4311f49b04bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dataSource</field>
+        <id>b60950481b73ac90c4311f49b04bcb76</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_id>fe0950481b73ac90c4311f49b04bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_b60950481b73ac90c4311f49b04bcb76</table>
+        <value>{{action.data_source}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dataSource1</field>
+        <id>b60950481b73ac90c4311f49b04bcb76</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:53</sys_created_on>
+        <sys_id>da965c811bf7a094c4311f49b04bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_b60950481b73ac90c4311f49b04bcb76</table>
+        <value>{{action.data_source}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dataSource2</field>
+        <id>b60950481b73ac90c4311f49b04bcb76</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:53</sys_created_on>
+        <sys_id>16965c811bf7a094c4311f49b04bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:53</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_b60950481b73ac90c4311f49b04bcb76</table>
+        <value>{{action.datasource_2}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>b60950481b73ac90c4311f49b04bcb76</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_id>f60950481b73ac90c4311f49b04bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=b60950481b73ac90c4311f49b04bcb76^sys_idNOT IN56965c811bf7a094c4311f49b04bcbd1,5a965c811bf7a094c4311f49b04bcbcb"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dataSource2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">b60950481b73ac90c4311f49b04bcb76</model>
+        <model_id>b60950481b73ac90c4311f49b04bcb76</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_b60950481b73ac90c4311f49b04bcb76</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>56965c811bf7a094c4311f49b04bcbd1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dataSource1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">b60950481b73ac90c4311f49b04bcb76</model>
+        <model_id>b60950481b73ac90c4311f49b04bcb76</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_b60950481b73ac90c4311f49b04bcb76</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5a965c811bf7a094c4311f49b04bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=b60950481b73ac90c4311f49b04bcb76^sys_idNOT INfe0950481b73ac90c4311f49b04bcbbf"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2b886be7-e776-4ee0-8553-1a94c1861380</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rmvstat</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>rmvstat</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">b60950481b73ac90c4311f49b04bcb76</model>
+        <model_id>b60950481b73ac90c4311f49b04bcb76</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_b60950481b73ac90c4311f49b04bcb76</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fe0950481b73ac90c4311f49b04bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f60950481b73ac90c4311f49b04bcb3e^sys_idNOT IN3a0950481b73ac90c4311f49b04bcb73,941614cd1bb7a094c4311f49b04bcb67"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>data_source</element>
+        <help/>
+        <hint/>
+        <label>DataSource_1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f60950481b73ac90c4311f49b04bcb3e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3a0950481b73ac90c4311f49b04bcb73</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:26:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>datasource_2</element>
+        <help/>
+        <hint/>
+        <label>DataSource_2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f60950481b73ac90c4311f49b04bcb3e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:26:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>941614cd1bb7a094c4311f49b04bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:26:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_f60950481b73ac90c4311f49b04bcb3e^sys_idNOT INf60990481b73ac90c4311f49b04bcb13"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>remvstat</element>
+        <help/>
+        <hint/>
+        <label>RemvStat</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_f60950481b73ac90c4311f49b04bcb3e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-23 15:05:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f60990481b73ac90c4311f49b04bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=f60950481b73ac90c4311f49b04bcb3e^sys_idNOT IN48a650c11bf7a094c4311f49b04bcb88"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="DT Remove Attachment Files ">f60950481b73ac90c4311f49b04bcb3e</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"48a650c11bf7a094c4311f49b04bcb88","name":"plan"}}</plan>
+        <snapshot>6796dc811bf7a094c4311f49b04bcbb9</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>48a650c11bf7a094c4311f49b04bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:59</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation>Remove all Data Theorem Attachments</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Remove all previously downloaded DataTheorem Hh attachments</description>
+        <internal_name>dt_remove_attachment_files</internal_name>
+        <label_cache>[{"name":"{{action.data_source}}","label":"action➛DataSource_1","type":"action","ref":""},{"name":"{{action.import_set_table_name}}","label":"action➛Import set table name","type":"action","ref":""},{"name":"{{action.datasource_2}}","label":"action➛DataSource_2","type":"action","ref":""},{"name":"{{step[01ae5abe-b572-4b0d-9043-d2097959d461].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[01ae5abe-b572-4b0d-9043-d2097959d461].rmvstat}}","label":"step➛Script step➛RmvStat","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>DT Remove Attachment Files </name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="DT Remove Attachment Files ">f60950481b73ac90c4311f49b04bcb3e</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>239610c11bf7a094c4311f49b04bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=239610c11bf7a094c4311f49b04bcb2c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>239610c11bf7a094c4311f49b04bcb2c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>f39610c11bf7a094c4311f49b04bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">7b9610c11bf7a094c4311f49b04bcbdd</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=239610c11bf7a094c4311f49b04bcb2c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>remvstat</field>
+        <id>239610c11bf7a094c4311f49b04bcb2c</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>739610c11bf7a094c4311f49b04bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_239610c11bf7a094c4311f49b04bcb2c</table>
+        <value>{{step[01ae5abe-b572-4b0d-9043-d2097959d461].rmvstat}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=239610c11bf7a094c4311f49b04bcb2c^sys_idNOT IN7b9610c11bf7a094c4311f49b04bcb99"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DT Remove Attachment Files ">239610c11bf7a094c4311f49b04bcb2c</action>
+        <cid>01ae5abe-b572-4b0d-9043-d2097959d461</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7b9610c11bf7a094c4311f49b04bcb99</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7b9610c11bf7a094c4311f49b04bcb99"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7b9610c11bf7a094c4311f49b04bcb99</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>bb9610c11bf7a094c4311f49b04bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  var deleteLog = "DataTheorem Remove Attachment Files from Data Source: " + inputs.dataSource1 + " &lt;Delete Count -&gt; ";
+  var deleteCount = 0;
+  var rmvStat = true;
+  
+  var attachment = new GlideSysAttachment();
+  var agr = attachment.getAttachments('sys_data_source', inputs.dataSource1.sys_id);
+  
+  while(agr.next()){
+    //gs.info('agr: ' + agr.getValue('sys_id'));
+    attachment.deleteAttachment(agr.getValue('sys_id'));
+    deleteCount = deleteCount+1;
+  }
+
+  gs.info(deleteLog + deleteCount);
+  
+  var deleteLog = "DataTheorem Remove Attachment Files from Data Source: " + inputs.dataSource2 + " &lt;Delete Count -&gt; ";
+  var deleteCount = 0;
+  var attachment = new GlideSysAttachment();
+  var agr = attachment.getAttachments('sys_data_source', inputs.dataSource2.sys_id);
+  
+  while(agr.next()){
+    //gs.info('agr: ' + agr.getValue('sys_id'));
+    attachment.deleteAttachment(agr.getValue('sys_id'));
+    deleteCount = deleteCount+1;
+  }
+  gs.info(deleteLog + deleteCount);
+  
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7b9610c11bf7a094c4311f49b04bcb99</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>f79610c11bf7a094c4311f49b04bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7b9610c11bf7a094c4311f49b04bcb99"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>7b9610c11bf7a094c4311f49b04bcb99</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>b39610c11bf7a094c4311f49b04bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dataSource1</field>
+        <id>7b9610c11bf7a094c4311f49b04bcb99</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>f79610c11bf7a094c4311f49b04bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7b9610c11bf7a094c4311f49b04bcb99</table>
+        <value>{{action.data_source}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dataSource2</field>
+        <id>7b9610c11bf7a094c4311f49b04bcb99</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>379610c11bf7a094c4311f49b04bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7b9610c11bf7a094c4311f49b04bcb99</table>
+        <value>{{action.datasource_2}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>7b9610c11bf7a094c4311f49b04bcb99</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>779610c11bf7a094c4311f49b04bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7b9610c11bf7a094c4311f49b04bcb99^sys_idNOT INbb9610c11bf7a094c4311f49b04bcb9c,bf9610c11bf7a094c4311f49b04bcbc8"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dataSource1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>dataSource1</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7b9610c11bf7a094c4311f49b04bcb99</model>
+        <model_id>7b9610c11bf7a094c4311f49b04bcb99</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7b9610c11bf7a094c4311f49b04bcb99</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bb9610c11bf7a094c4311f49b04bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dataSource2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>dataSource2</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">7b9610c11bf7a094c4311f49b04bcb99</model>
+        <model_id>7b9610c11bf7a094c4311f49b04bcb99</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7b9610c11bf7a094c4311f49b04bcb99</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bf9610c11bf7a094c4311f49b04bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7b9610c11bf7a094c4311f49b04bcb99^sys_idNOT IN3f9610c11bf7a094c4311f49b04bcbcf"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2b886be7-e776-4ee0-8553-1a94c1861380</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rmvstat</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>rmvstat</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">7b9610c11bf7a094c4311f49b04bcb99</model>
+        <model_id>7b9610c11bf7a094c4311f49b04bcb99</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7b9610c11bf7a094c4311f49b04bcb99</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3f9610c11bf7a094c4311f49b04bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=239610c11bf7a094c4311f49b04bcb2c^sys_idNOT IN239610c11bf7a094c4311f49b04bcb2d,a39610c11bf7a094c4311f49b04bcb69"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=5dbd625b-5e02-4de4-98d6-473e20c40335</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>{"display":"DT Vuln Defn","value":"130d81031be7e4d046224379b04bcb07"}</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>data_source</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>DataSource_1</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="DT Remove Attachment Files ">239610c11bf7a094c4311f49b04bcb2c</model>
+        <model_id>239610c11bf7a094c4311f49b04bcb2c</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_239610c11bf7a094c4311f49b04bcb2c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>239610c11bf7a094c4311f49b04bcb2d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=3e19d1a6-d6f4-4bea-8349-f4c404c90936</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_data_source</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>datasource_2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>DataSource_2</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="DT Remove Attachment Files ">239610c11bf7a094c4311f49b04bcb2c</model>
+        <model_id>239610c11bf7a094c4311f49b04bcb2c</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_239610c11bf7a094c4311f49b04bcb2c</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a39610c11bf7a094c4311f49b04bcb69</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=239610c11bf7a094c4311f49b04bcb2c^sys_idNOT IN7b9610c11bf7a094c4311f49b04bcbdd"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=6e7f1871-60ff-482f-b289-a67c7fb1439e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>remvstat</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>RemvStat</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="DT Remove Attachment Files ">239610c11bf7a094c4311f49b04bcb2c</model>
+        <model_id>239610c11bf7a094c4311f49b04bcb2c</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_239610c11bf7a094c4311f49b04bcb2c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7b9610c11bf7a094c4311f49b04bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=239610c11bf7a094c4311f49b04bcb2c^sys_idNOT IN7b9610c11bf7a094c4311f49b04bcb99"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DT Remove Attachment Files ">239610c11bf7a094c4311f49b04bcb2c</action>
+        <cid>01ae5abe-b572-4b0d-9043-d2097959d461</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7b9610c11bf7a094c4311f49b04bcb99</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7b9610c11bf7a094c4311f49b04bcb99"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7b9610c11bf7a094c4311f49b04bcb99</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>bb9610c11bf7a094c4311f49b04bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  
+  var deleteLog = "DataTheorem Remove Attachment Files from Data Source: " + inputs.dataSource1 + " &lt;Delete Count -&gt; ";
+  var deleteCount = 0;
+  var rmvStat = true;
+  
+  var attachment = new GlideSysAttachment();
+  var agr = attachment.getAttachments('sys_data_source', inputs.dataSource1.sys_id);
+  
+  while(agr.next()){
+    //gs.info('agr: ' + agr.getValue('sys_id'));
+    attachment.deleteAttachment(agr.getValue('sys_id'));
+    deleteCount = deleteCount+1;
+  }
+
+  gs.info(deleteLog + deleteCount);
+  
+  var deleteLog = "DataTheorem Remove Attachment Files from Data Source: " + inputs.dataSource2 + " &lt;Delete Count -&gt; ";
+  var deleteCount = 0;
+  var attachment = new GlideSysAttachment();
+  var agr = attachment.getAttachments('sys_data_source', inputs.dataSource2.sys_id);
+  
+  while(agr.next()){
+    //gs.info('agr: ' + agr.getValue('sys_id'));
+    attachment.deleteAttachment(agr.getValue('sys_id'));
+    deleteCount = deleteCount+1;
+  }
+  gs.info(deleteLog + deleteCount);
+  
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7b9610c11bf7a094c4311f49b04bcb99</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>f79610c11bf7a094c4311f49b04bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7b9610c11bf7a094c4311f49b04bcb99"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>7b9610c11bf7a094c4311f49b04bcb99</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>b39610c11bf7a094c4311f49b04bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dataSource1</field>
+        <id>7b9610c11bf7a094c4311f49b04bcb99</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>f79610c11bf7a094c4311f49b04bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7b9610c11bf7a094c4311f49b04bcb99</table>
+        <value>{{action.data_source}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>dataSource2</field>
+        <id>7b9610c11bf7a094c4311f49b04bcb99</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>379610c11bf7a094c4311f49b04bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7b9610c11bf7a094c4311f49b04bcb99</table>
+        <value>{{action.datasource_2}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>7b9610c11bf7a094c4311f49b04bcb99</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_id>779610c11bf7a094c4311f49b04bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7b9610c11bf7a094c4311f49b04bcb99^sys_idNOT INbb9610c11bf7a094c4311f49b04bcb9c,bf9610c11bf7a094c4311f49b04bcbc8"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dataSource1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>dataSource1</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7b9610c11bf7a094c4311f49b04bcb99</model>
+        <model_id>7b9610c11bf7a094c4311f49b04bcb99</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7b9610c11bf7a094c4311f49b04bcb99</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bb9610c11bf7a094c4311f49b04bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dataSource2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>dataSource2</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">7b9610c11bf7a094c4311f49b04bcb99</model>
+        <model_id>7b9610c11bf7a094c4311f49b04bcb99</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7b9610c11bf7a094c4311f49b04bcb99</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bf9610c11bf7a094c4311f49b04bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7b9610c11bf7a094c4311f49b04bcb99^sys_idNOT IN3f9610c11bf7a094c4311f49b04bcbcf"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2b886be7-e776-4ee0-8553-1a94c1861380</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rmvstat</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>rmvstat</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">7b9610c11bf7a094c4311f49b04bcb99</model>
+        <model_id>7b9610c11bf7a094c4311f49b04bcb99</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7b9610c11bf7a094c4311f49b04bcb99</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3f9610c11bf7a094c4311f49b04bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_239610c11bf7a094c4311f49b04bcb2c^sys_idNOT INbb9610c11bf7a094c4311f49b04bcb96,eb9610c11bf7a094c4311f49b04bcb67"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>datasource_2</element>
+        <help/>
+        <hint/>
+        <label>DataSource_2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_239610c11bf7a094c4311f49b04bcb2c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bb9610c11bf7a094c4311f49b04bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>data_source</element>
+        <help/>
+        <hint/>
+        <label>DataSource_1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_239610c11bf7a094c4311f49b04bcb2c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>eb9610c11bf7a094c4311f49b04bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_239610c11bf7a094c4311f49b04bcb2c^sys_idNOT IN739610c11bf7a094c4311f49b04bcbe3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>remvstat</element>
+        <help/>
+        <hint/>
+        <label>RemvStat</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_239610c11bf7a094c4311f49b04bcb2c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:28:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>739610c11bf7a094c4311f49b04bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation>This initiates the loading of the import set table and subsequently removing the attachments from the data sources in order.</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>ad8e8a0c1bc3e414c4311f49b04bcb5c</copied_from>
+        <copied_from_name>Twistlock Load Images</copied_from_name>
+        <description>This initiates the loading of the import set table and subsequently removing the attachments from the data sources in order. The code is invoked twice, once for each of the two objects</description>
+        <ih_action>false</ih_action>
+        <internal_name>datatheorem_load_objects</internal_name>
+        <label_cache>[{"name":"{{action.datasource}}","label":"action➛DataSource","type":"action","ref":""},{"name":"{{step[7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70].load_status}}","label":"step➛Script step➛load_status","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>DT Load Core</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2510d2c71bafa8d046224379b04bcbbc</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>DT Load Core</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_2510d2c71bafa8d046224379b04bcbbc</sys_update_name>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-21 12:45:38</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="DELETE" query="document_key=2510d2c71bafa8d046224379b04bcbbc"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>2510d2c71bafa8d046224379b04bcbbc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_id>b11016c71bafa8d046224379b04bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">ed1016c71bafa8d046224379b04bcb33</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=2510d2c71bafa8d046224379b04bcbbc"/>
+    <sys_element_mapping action="DELETE">
+        <field>impstat</field>
+        <id>2510d2c71bafa8d046224379b04bcbbc</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_id>311016c71bafa8d046224379b04bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <table>var__m_sys_hub_action_output_2510d2c71bafa8d046224379b04bcbbc</table>
+        <value>{{step[7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70].load_status}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="DELETE" query="action=2510d2c71bafa8d046224379b04bcbbc^sys_idNOT IN6910d2c71bafa8d046224379b04bcbce"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="DT Load Core">2510d2c71bafa8d046224379b04bcbbc</action>
+        <cid>7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6910d2c71bafa8d046224379b04bcbce</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:15:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=6910d2c71bafa8d046224379b04bcbce"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6910d2c71bafa8d046224379b04bcbce</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_id>e51016c71bafa8d046224379b04bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6910d2c71bafa8d046224379b04bcbce</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_id>ed1016c71bafa8d046224379b04bcb2f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:15:45</sys_updated_on>
+        <value>(function execute(inputs, outputs){
+  try {
+    var pLabel;
+    var gl = new global.GSLog("sn_vul.usb.logging.verbosity", "DataTheorem_Dwnload");
+    var impDATA = new GlideRecord("scheduled_import_set");
+
+    outputs.load_status =  true; 
+    
+    impDATA.addQuery("sys_id", "ee08a3621b4fa8d8c4311f49b04bcbcb"); 
+    impDATA.query();
+
+    if (impDATA.next()) {
+              gs.executeNow(impDATA); 
+    }
+    gs.info('[usb-vul-dto] - Scheduled Data Import ' + outputs.load_status);
+  } 
+  catch(ex) {
+    outputs.load_status = false;
+    gl.logInfo(gs.getMessage('sn_vul', "====&gt; FlowDesigner Download Error &lt;=== " + ex));
+  }      
+}
+)(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=6910d2c71bafa8d046224379b04bcbce"/>
+    <sys_element_mapping action="DELETE">
+        <field>application</field>
+        <id>6910d2c71bafa8d046224379b04bcbce</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_id>ad1016c71bafa8d046224379b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>datasource_ref</field>
+        <id>6910d2c71bafa8d046224379b04bcbce</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_id>6d1016c71bafa8d046224379b04bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6910d2c71bafa8d046224379b04bcbce</table>
+        <value>{{action.datasource}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>script</field>
+        <id>6910d2c71bafa8d046224379b04bcbce</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_id>651016c71bafa8d046224379b04bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="DELETE" query="model=6910d2c71bafa8d046224379b04bcbce^sys_idNOT IN691016c71bafa8d046224379b04bcb1c"/>
+    <sys_hub_step_ext_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>datasource_ref</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">6910d2c71bafa8d046224379b04bcbce</model>
+        <model_id>6910d2c71bafa8d046224379b04bcbce</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6910d2c71bafa8d046224379b04bcbce</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>691016c71bafa8d046224379b04bcb1c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:12:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="DELETE" query="model=6910d2c71bafa8d046224379b04bcbce^sys_idNOT IN691016c71bafa8d046224379b04bcb24"/>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2b671993-4fd4-4987-9d3d-fece9fe19ab5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>load_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>load_status</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">6910d2c71bafa8d046224379b04bcbce</model>
+        <model_id>6910d2c71bafa8d046224379b04bcbce</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6910d2c71bafa8d046224379b04bcbce</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>691016c71bafa8d046224379b04bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="DELETE" query="model=2510d2c71bafa8d046224379b04bcbbc^sys_idNOT INe510d2c71bafa8d046224379b04bcbc1"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=6acda3e8-d5e7-411d-8381-0041e5267ac2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>{"display":"DT Vuln Defn","value":"130d81031be7e4d046224379b04bcb07"}</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>datasource</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>DataSource</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="DT Load Core">2510d2c71bafa8d046224379b04bcbbc</model>
+        <model_id>2510d2c71bafa8d046224379b04bcbbc</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_2510d2c71bafa8d046224379b04bcbbc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e510d2c71bafa8d046224379b04bcbc1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:15:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="DELETE" query="model=2510d2c71bafa8d046224379b04bcbbc^sys_idNOT INed1016c71bafa8d046224379b04bcb33"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=414353ea-12c1-4576-b489-227d43f5d881</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>impstat</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>ImpStat</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="DT Load Core">2510d2c71bafa8d046224379b04bcbbc</model>
+        <model_id>2510d2c71bafa8d046224379b04bcbbc</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_2510d2c71bafa8d046224379b04bcbbc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ed1016c71bafa8d046224379b04bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="DELETE" query="action=2510d2c71bafa8d046224379b04bcbbc^sys_idNOT IN6910d2c71bafa8d046224379b04bcbce"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="DT Load Core">2510d2c71bafa8d046224379b04bcbbc</action>
+        <cid>7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6910d2c71bafa8d046224379b04bcbce</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:15:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=6910d2c71bafa8d046224379b04bcbce"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6910d2c71bafa8d046224379b04bcbce</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_id>e51016c71bafa8d046224379b04bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6910d2c71bafa8d046224379b04bcbce</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_id>ed1016c71bafa8d046224379b04bcb2f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:15:45</sys_updated_on>
+        <value>(function execute(inputs, outputs){
+  try {
+    var pLabel;
+    var gl = new global.GSLog("sn_vul.usb.logging.verbosity", "DataTheorem_Dwnload");
+    var impDATA = new GlideRecord("scheduled_import_set");
+
+    outputs.load_status =  true; 
+    
+    impDATA.addQuery("sys_id", "ee08a3621b4fa8d8c4311f49b04bcbcb"); 
+    impDATA.query();
+
+    if (impDATA.next()) {
+              gs.executeNow(impDATA); 
+    }
+    gs.info('[usb-vul-dto] - Scheduled Data Import ' + outputs.load_status);
+  } 
+  catch(ex) {
+    outputs.load_status = false;
+    gl.logInfo(gs.getMessage('sn_vul', "====&gt; FlowDesigner Download Error &lt;=== " + ex));
+  }      
+}
+)(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=6910d2c71bafa8d046224379b04bcbce"/>
+    <sys_element_mapping action="DELETE">
+        <field>application</field>
+        <id>6910d2c71bafa8d046224379b04bcbce</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_id>ad1016c71bafa8d046224379b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>datasource_ref</field>
+        <id>6910d2c71bafa8d046224379b04bcbce</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_id>6d1016c71bafa8d046224379b04bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6910d2c71bafa8d046224379b04bcbce</table>
+        <value>{{action.datasource}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>script</field>
+        <id>6910d2c71bafa8d046224379b04bcbce</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_id>651016c71bafa8d046224379b04bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="DELETE" query="model=6910d2c71bafa8d046224379b04bcbce^sys_idNOT IN691016c71bafa8d046224379b04bcb1c"/>
+    <sys_hub_step_ext_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>datasource_ref</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">6910d2c71bafa8d046224379b04bcbce</model>
+        <model_id>6910d2c71bafa8d046224379b04bcbce</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6910d2c71bafa8d046224379b04bcbce</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>691016c71bafa8d046224379b04bcb1c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:12:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="DELETE" query="model=6910d2c71bafa8d046224379b04bcbce^sys_idNOT IN691016c71bafa8d046224379b04bcb24"/>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2b671993-4fd4-4987-9d3d-fece9fe19ab5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>load_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>load_status</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">6910d2c71bafa8d046224379b04bcbce</model>
+        <model_id>6910d2c71bafa8d046224379b04bcbce</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6910d2c71bafa8d046224379b04bcbce</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>691016c71bafa8d046224379b04bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_2510d2c71bafa8d046224379b04bcbbc^sys_idNOT INe910d2c71bafa8d046224379b04bcbcb"/>
+    <sys_documentation action="DELETE">
+        <element>datasource</element>
+        <help/>
+        <hint/>
+        <label>DataSource</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2510d2c71bafa8d046224379b04bcbbc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e910d2c71bafa8d046224379b04bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_2510d2c71bafa8d046224379b04bcbbc^sys_idNOT INed1016c71bafa8d046224379b04bcb39"/>
+    <sys_documentation action="DELETE">
+        <element>impstat</element>
+        <help/>
+        <hint/>
+        <label>ImpStat</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_2510d2c71bafa8d046224379b04bcbbc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 21:11:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ed1016c71bafa8d046224379b04bcb39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 21:11:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</application>
+        <file_path/>
+        <instance_id>15d757e6db004c144d2bac44d4961979</instance_id>
+        <instance_name>itsmnowiss</instance_name>
+        <name>sys_hub_action_type_definition_2510d2c71bafa8d046224379b04bcbbc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_action_type_definition"&gt;&lt;sys_hub_action_type_definition action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;action_template/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation&gt;This initiates the loading of the import set table and subsequently removing the attachments from the data sources in order.&lt;/annotation&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from&gt;ad8e8a0c1bc3e414c4311f49b04bcb5c&lt;/copied_from&gt;&lt;copied_from_name&gt;Twistlock Load Images&lt;/copied_from_name&gt;&lt;description&gt;This initiates the loading of the import set table and subsequently removing the attachments from the data sources in order. The code is invoked twice, once for each of the two objects&lt;/description&gt;&lt;ih_action&gt;false&lt;/ih_action&gt;&lt;internal_name&gt;datatheorem_load_objects&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"{{action.datasource}}","label":"action➛DataSource","type":"action","ref":""},{"name":"{{step[7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70].load_status}}","label":"step➛Script step➛load_status","type":"step","ref":""}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;DT Load Core&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;outputs/&gt;&lt;state&gt;draft&lt;/state&gt;&lt;sys_class_name&gt;sys_hub_action_type_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:48&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;2510d2c71bafa8d046224379b04bcbbc&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;DT Load Core&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="DataTheorem" source="x_usbna_dto"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="DataTheorem"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_type_definition_2510d2c71bafa8d046224379b04bcbbc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-21 12:45:38&lt;/sys_updated_on&gt;&lt;system_level&gt;false&lt;/system_level&gt;&lt;type/&gt;&lt;/sys_hub_action_type_definition&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=2510d2c71bafa8d046224379b04bcbbc"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_definition&lt;/document&gt;&lt;document_key&gt;2510d2c71bafa8d046224379b04bcbbc&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_id&gt;b11016c71bafa8d046224379b04bcb3d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value=""&gt;ed1016c71bafa8d046224379b04bcb33&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=2510d2c71bafa8d046224379b04bcbbc"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;impstat&lt;/field&gt;&lt;id&gt;2510d2c71bafa8d046224379b04bcbbc&lt;/id&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_id&gt;311016c71bafa8d046224379b04bcb3d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_2510d2c71bafa8d046224379b04bcbbc&lt;/table&gt;&lt;value&gt;{{step[7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70].load_status}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=2510d2c71bafa8d046224379b04bcbbc^sys_idNOT IN6910d2c71bafa8d046224379b04bcbce"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="DT Load Core"&gt;2510d2c71bafa8d046224379b04bcbbc&lt;/action&gt;&lt;cid&gt;7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70&lt;/cid&gt;&lt;extended_inputs/&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;label&gt;Script step&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="Script"&gt;106afb6647032200b4fad7527c9a71e7&lt;/step_type&gt;&lt;sys_class_name&gt;sys_hub_step_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;6910d2c71bafa8d046224379b04bcbce&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="DataTheorem"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:15:45&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=6910d2c71bafa8d046224379b04bcbce"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;6910d2c71bafa8d046224379b04bcbce&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_id&gt;e51016c71bafa8d046224379b04bcb2f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;value&gt;35aa573fd7802200bdbaee5b5e610375&lt;/value&gt;&lt;variable display_value=""&gt;f5e56d79b3101300176b051a16a8dce4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;6910d2c71bafa8d046224379b04bcbce&lt;/document_key&gt;&lt;order&gt;600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_id&gt;ed1016c71bafa8d046224379b04bcb2f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:15:45&lt;/sys_updated_on&gt;&lt;value&gt;(function execute(inputs, outputs){
+  try {
+    var pLabel;
+    var gl = new global.GSLog("sn_vul.usb.logging.verbosity", "DataTheorem_Dwnload");
+    var impDATA = new GlideRecord("scheduled_import_set");
+
+    outputs.load_status =  true; 
+    
+    impDATA.addQuery("sys_id", "ee08a3621b4fa8d8c4311f49b04bcbcb"); 
+    impDATA.query();
+
+    if (impDATA.next()) {
+              gs.executeNow(impDATA); 
+    }
+    gs.info('[usb-vul-dto] - Scheduled Data Import ' + outputs.load_status);
+  } 
+  catch(ex) {
+    outputs.load_status = false;
+    gl.logInfo(gs.getMessage('sn_vul', "====&amp;gt; FlowDesigner Download Error &amp;lt;=== " + ex));
+  }      
+}
+)(inputs, outputs);&lt;/value&gt;&lt;variable display_value=""&gt;71aa7f6647032200b4fad7527c9a719b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=6910d2c71bafa8d046224379b04bcbce"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;application&lt;/field&gt;&lt;id&gt;6910d2c71bafa8d046224379b04bcbce&lt;/id&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_id&gt;ad1016c71bafa8d046224379b04bcb2e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;datasource_ref&lt;/field&gt;&lt;id&gt;6910d2c71bafa8d046224379b04bcbce&lt;/id&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_id&gt;6d1016c71bafa8d046224379b04bcb30&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_step_ext_input_6910d2c71bafa8d046224379b04bcbce&lt;/table&gt;&lt;value&gt;{{action.datasource}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;script&lt;/field&gt;&lt;id&gt;6910d2c71bafa8d046224379b04bcbce&lt;/id&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_id&gt;651016c71bafa8d046224379b04bcb2f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=6910d2c71bafa8d046224379b04bcbce^sys_idNOT IN691016c71bafa8d046224379b04bcb1c"/&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;datasource_ref&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label/&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;6910d2c71bafa8d046224379b04bcbce&lt;/model&gt;&lt;model_id&gt;6910d2c71bafa8d046224379b04bcbce&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_6910d2c71bafa8d046224379b04bcbce&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;691016c71bafa8d046224379b04bcb1c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="DataTheorem"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:12:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=6910d2c71bafa8d046224379b04bcbce^sys_idNOT IN691016c71bafa8d046224379b04bcb24"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2b671993-4fd4-4987-9d3d-fece9fe19ab5&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;load_status&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;load_status&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Script step"&gt;6910d2c71bafa8d046224379b04bcbce&lt;/model&gt;&lt;model_id&gt;6910d2c71bafa8d046224379b04bcbce&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_6910d2c71bafa8d046224379b04bcbce&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;691016c71bafa8d046224379b04bcb24&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="DataTheorem"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_action_input action="delete_multiple" query="model=2510d2c71bafa8d046224379b04bcbbc^sys_idNOT INe510d2c71bafa8d046224379b04bcbc1"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=6acda3e8-d5e7-411d-8381-0041e5267ac2&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;{"display":"DT Vuln Defn","value":"130d81031be7e4d046224379b04bcb07"}&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;datasource&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;DataSource&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="DT Load Core"&gt;2510d2c71bafa8d046224379b04bcbbc&lt;/model&gt;&lt;model_id&gt;2510d2c71bafa8d046224379b04bcbbc&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_2510d2c71bafa8d046224379b04bcbbc&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_data_source"&gt;sys_data_source&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;e510d2c71bafa8d046224379b04bcbc1&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="DataTheorem"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:15:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_output action="delete_multiple" query="model=2510d2c71bafa8d046224379b04bcbbc^sys_idNOT INed1016c71bafa8d046224379b04bcb33"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=414353ea-12c1-4576-b489-227d43f5d881&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;impstat&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;ImpStat&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="DT Load Core"&gt;2510d2c71bafa8d046224379b04bcbbc&lt;/model&gt;&lt;model_id&gt;2510d2c71bafa8d046224379b04bcbbc&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_2510d2c71bafa8d046224379b04bcbbc&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;ed1016c71bafa8d046224379b04bcb33&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="DataTheorem"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=2510d2c71bafa8d046224379b04bcbbc^sys_idNOT IN6910d2c71bafa8d046224379b04bcbce"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="DT Load Core"&gt;2510d2c71bafa8d046224379b04bcbbc&lt;/action&gt;&lt;cid&gt;7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70&lt;/cid&gt;&lt;extended_inputs/&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;label&gt;Script step&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="Script"&gt;106afb6647032200b4fad7527c9a71e7&lt;/step_type&gt;&lt;sys_class_name&gt;sys_hub_step_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;6910d2c71bafa8d046224379b04bcbce&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="DataTheorem"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:15:45&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=6910d2c71bafa8d046224379b04bcbce"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;6910d2c71bafa8d046224379b04bcbce&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_id&gt;e51016c71bafa8d046224379b04bcb2f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;value&gt;35aa573fd7802200bdbaee5b5e610375&lt;/value&gt;&lt;variable display_value=""&gt;f5e56d79b3101300176b051a16a8dce4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;6910d2c71bafa8d046224379b04bcbce&lt;/document_key&gt;&lt;order&gt;600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_id&gt;ed1016c71bafa8d046224379b04bcb2f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:15:45&lt;/sys_updated_on&gt;&lt;value&gt;(function execute(inputs, outputs){
+  try {
+    var pLabel;
+    var gl = new global.GSLog("sn_vul.usb.logging.verbosity", "DataTheorem_Dwnload");
+    var impDATA = new GlideRecord("scheduled_import_set");
+
+    outputs.load_status =  true; 
+    
+    impDATA.addQuery("sys_id", "ee08a3621b4fa8d8c4311f49b04bcbcb"); 
+    impDATA.query();
+
+    if (impDATA.next()) {
+              gs.executeNow(impDATA); 
+    }
+    gs.info('[usb-vul-dto] - Scheduled Data Import ' + outputs.load_status);
+  } 
+  catch(ex) {
+    outputs.load_status = false;
+    gl.logInfo(gs.getMessage('sn_vul', "====&amp;gt; FlowDesigner Download Error &amp;lt;=== " + ex));
+  }      
+}
+)(inputs, outputs);&lt;/value&gt;&lt;variable display_value=""&gt;71aa7f6647032200b4fad7527c9a719b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=6910d2c71bafa8d046224379b04bcbce"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;application&lt;/field&gt;&lt;id&gt;6910d2c71bafa8d046224379b04bcbce&lt;/id&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_id&gt;ad1016c71bafa8d046224379b04bcb2e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;datasource_ref&lt;/field&gt;&lt;id&gt;6910d2c71bafa8d046224379b04bcbce&lt;/id&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_id&gt;6d1016c71bafa8d046224379b04bcb30&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_step_ext_input_6910d2c71bafa8d046224379b04bcbce&lt;/table&gt;&lt;value&gt;{{action.datasource}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;script&lt;/field&gt;&lt;id&gt;6910d2c71bafa8d046224379b04bcbce&lt;/id&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_id&gt;651016c71bafa8d046224379b04bcb2f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=6910d2c71bafa8d046224379b04bcbce^sys_idNOT IN691016c71bafa8d046224379b04bcb1c"/&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;datasource_ref&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label/&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;6910d2c71bafa8d046224379b04bcbce&lt;/model&gt;&lt;model_id&gt;6910d2c71bafa8d046224379b04bcbce&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_6910d2c71bafa8d046224379b04bcbce&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;691016c71bafa8d046224379b04bcb1c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="DataTheorem"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:12:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=6910d2c71bafa8d046224379b04bcbce^sys_idNOT IN691016c71bafa8d046224379b04bcb24"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2b671993-4fd4-4987-9d3d-fece9fe19ab5&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;load_status&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;load_status&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Script step"&gt;6910d2c71bafa8d046224379b04bcbce&lt;/model&gt;&lt;model_id&gt;6910d2c71bafa8d046224379b04bcbce&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_6910d2c71bafa8d046224379b04bcbce&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;691016c71bafa8d046224379b04bcb24&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="DataTheorem"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_2510d2c71bafa8d046224379b04bcbbc^sys_idNOT INe910d2c71bafa8d046224379b04bcbcb"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;datasource&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;DataSource&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_2510d2c71bafa8d046224379b04bcbbc&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;e910d2c71bafa8d046224379b04bcbcb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="DataTheorem" source="x_usbna_dto"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="DataTheorem"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_2510d2c71bafa8d046224379b04bcbbc^sys_idNOT INed1016c71bafa8d046224379b04bcb39"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;impstat&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;ImpStat&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_2510d2c71bafa8d046224379b04bcbbc&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;vxsrin2&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-04-20 21:11:49&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;ed1016c71bafa8d046224379b04bcb39&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="DataTheorem" source="x_usbna_dto"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="DataTheorem"&gt;9858dcec1b27e45846224379b04bcb71&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;vxsrin2&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-04-20 21:11:49&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1948353445</payload_hash>
+        <record_name>DT Load Core</record_name>
+        <reverted_from/>
+        <source>bfaacdc31b27e4d046224379b04bcb3f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-21 12:45:38</sys_created_on>
+        <sys_id>b0d52d1f1b67e05446224379b04bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178f476f0c20000001</sys_recorded_at>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-21 12:45:38</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>78d52d1fa267e0549afb0ef6f33696ad</update_guid>
+        <update_guid_history>78d52d1fa267e0549afb0ef6f33696ad:1948353445,cb2529d76067e054d206c1aad5e75f38:-1600791234,5ff096036fefa8d0c9c49e7d57f4672d:-899675652,3c409e0b73afa8d03894bc4fb224ac9c:-298790670,791016c758afa8d0187bb79b9d7f7a75:2041918726,ed10d2c7dcafa8d06ed08454d8a3b2bf:-860941281</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-21 12:52:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>5ee4ab1b6c544290809eb9e0aa750100</sys_id>
+        <sys_metadata>2510d2c71bafa8d046224379b04bcbbc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DT Load Core</sys_name>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_scope_delete display_value="">1fe6a6e2774848ce9c134ad738fb1ed9</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_2510d2c71bafa8d046224379b04bcbbc</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_2510d2c71bafa8d046224379b04bcbbc">b0d52d1f1b67e05446224379b04bcbae</sys_update_version>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-21 12:52:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

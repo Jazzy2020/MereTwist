@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>read</operation>
+        <source_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-13 12:51:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6e6a58741b23a49846224379b04bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_usbna_twl_intg_twl_images</sys_name>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name>sys_scope_privilege_6e6a58741b23a49846224379b04bcb14</sys_update_name>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-13 12:51:22</sys_updated_on>
+        <target_name>x_usbna_twl_intg_twl_images</target_name>
+        <target_scope display_value="[usb-vul] Twistlock Integration">d5145545db35005018c3672b8a961957</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</application>
+        <file_path/>
+        <instance_id>15d757e6db004c144d2bac44d4961979</instance_id>
+        <instance_name>itsmnowiss</instance_name>
+        <name>sys_scope_privilege_6e6a58741b23a49846224379b04bcb14</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>read</operation><source_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>vxsrin2</sys_created_by><sys_created_on>2021-04-13 12:51:22</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>6e6a58741b23a49846224379b04bcb14</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_usbna_twl_intg_twl_images</sys_name><sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope><sys_update_name>sys_scope_privilege_6e6a58741b23a49846224379b04bcb14</sys_update_name><sys_updated_by>vxsrin2</sys_updated_by><sys_updated_on>2021-04-13 12:51:22</sys_updated_on><target_name>x_usbna_twl_intg_twl_images</target_name><target_scope display_value="[usb-vul] Twistlock Integration">d5145545db35005018c3672b8a961957</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>19643657</payload_hash>
+        <record_name>x_usbna_twl_intg_twl_images</record_name>
+        <reverted_from/>
+        <source>d458dcec1b27e45846224379b04bcb74</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-13 12:51:22</sys_created_on>
+        <sys_id>e26a58741b23a49846224379b04bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178cb494d640000001</sys_recorded_at>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-13 12:51:22</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>e66a5874d423a498540ff068287e6817</update_guid>
+        <update_guid_history>e66a5874d423a498540ff068287e6817:19643657</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-20 14:41:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>619a9e993750493697ec4d188f62e931</sys_id>
+        <sys_metadata>6e6a58741b23a49846224379b04bcb14</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_usbna_twl_intg_twl_images</sys_name>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_scope_delete display_value="">1fe6a6e2774848ce9c134ad738fb1ed9</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_6e6a58741b23a49846224379b04bcb14</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_6e6a58741b23a49846224379b04bcb14">e26a58741b23a49846224379b04bcb18</sys_update_version>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-20 14:41:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

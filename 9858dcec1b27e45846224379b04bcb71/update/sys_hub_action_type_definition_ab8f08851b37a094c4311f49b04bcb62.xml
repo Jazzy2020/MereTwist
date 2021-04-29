@@ -1,0 +1,2305 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation>This initiates the loading of the import set table and subsequently removing the This initiates the start of the tranforms related to the LoadType which could be Vulnerability Findings or Vulnerability Targets.</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>78c7a19f1ba7e05446224379b04bcbe5</copied_from>
+        <copied_from_name>DT Load Attachments</copied_from_name>
+        <description>This initiates the start of the tranforms related to the LoadType which could be Vulnerability Findings or Vulnerability Targets.</description>
+        <ih_action>false</ih_action>
+        <internal_name>dt_start_xform</internal_name>
+        <label_cache>[{"name":"{{action.datasource}}","label":"action➛DataSource","type":"action","ref":""},{"name":"{{action.loadtype}}","label":"action➛LoadType","type":"action","ref":""},{"name":"{{step[7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70].load_status}}","label":"step➛Script step➛load_status","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>2178d8cd1bf7a094c4311f49b04bcbe5</latest_snapshot>
+        <master_snapshot>932214851b77a094c4311f49b04bcb69</master_snapshot>
+        <name>DT Start Xform</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ab8f08851b37a094c4311f49b04bcb62</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>DT Start Xform</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_ab8f08851b37a094c4311f49b04bcb62</sys_update_name>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:37:01</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=ab8f08851b37a094c4311f49b04bcb62"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>ab8f08851b37a094c4311f49b04bcb62</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>f38f08851b37a094c4311f49b04bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">7f8f08851b37a094c4311f49b04bcba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ab8f08851b37a094c4311f49b04bcb62"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>impstat</field>
+        <id>ab8f08851b37a094c4311f49b04bcb62</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>738f08851b37a094c4311f49b04bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ab8f08851b37a094c4311f49b04bcb62</table>
+        <value>{{step[7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70].load_status}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=ab8f08851b37a094c4311f49b04bcb62^sys_idNOT IN2f8f08851b37a094c4311f49b04bcb79"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DT Start Xform">ab8f08851b37a094c4311f49b04bcb62</action>
+        <cid>7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2f8f08851b37a094c4311f49b04bcb79</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:36:56</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2f8f08851b37a094c4311f49b04bcb79"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f8f08851b37a094c4311f49b04bcb79</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>bf8f08851b37a094c4311f49b04bcba0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:36:56</sys_updated_on>
+        <value>(function execute(inputs, outputs){
+ try {
+         var load_status = true;
+         var gl = new global.GSLog("sn_vul.usb.logging.verbosity", "DataTheorem_Start_" + inputs.LoadType + " Xform");
+
+         XFC = new global.DataTheorem_XformAtt();
+
+	     XFC.importAtt(inputs.DataSource);
+		 
+       } catch (ex) {
+                gl.logError(gs.getMessage('sn_vul', ex));
+                load_status = false;
+       }
+}
+)(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f8f08851b37a094c4311f49b04bcb79</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>fb8f08851b37a094c4311f49b04bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2f8f08851b37a094c4311f49b04bcb79"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>2f8f08851b37a094c4311f49b04bcb79</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>ff8f08851b37a094c4311f49b04bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>DataSource</field>
+        <id>2f8f08851b37a094c4311f49b04bcb79</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>fb8f08851b37a094c4311f49b04bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2f8f08851b37a094c4311f49b04bcb79</table>
+        <value>{{action.datasource}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>LoadType</field>
+        <id>2f8f08851b37a094c4311f49b04bcb79</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>3b8f08851b37a094c4311f49b04bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2f8f08851b37a094c4311f49b04bcb79</table>
+        <value>{{action.loadtype}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>2f8f08851b37a094c4311f49b04bcb79</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>7b8f08851b37a094c4311f49b04bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2f8f08851b37a094c4311f49b04bcb79^sys_idNOT IN2f8f08851b37a094c4311f49b04bcb83,6f8f08851b37a094c4311f49b04bcb7c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>LoadType</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">2f8f08851b37a094c4311f49b04bcb79</model>
+        <model_id>2f8f08851b37a094c4311f49b04bcb79</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2f8f08851b37a094c4311f49b04bcb79</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2f8f08851b37a094c4311f49b04bcb83</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:59:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>DataSource</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">2f8f08851b37a094c4311f49b04bcb79</model>
+        <model_id>2f8f08851b37a094c4311f49b04bcb79</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2f8f08851b37a094c4311f49b04bcb79</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6f8f08851b37a094c4311f49b04bcb7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:59:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2f8f08851b37a094c4311f49b04bcb79^sys_idNOT INab8f08851b37a094c4311f49b04bcb8a"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2b671993-4fd4-4987-9d3d-fece9fe19ab5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>load_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>load_status</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">2f8f08851b37a094c4311f49b04bcb79</model>
+        <model_id>2f8f08851b37a094c4311f49b04bcb79</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2f8f08851b37a094c4311f49b04bcb79</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ab8f08851b37a094c4311f49b04bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=ab8f08851b37a094c4311f49b04bcb62^sys_idNOT INab8f08851b37a094c4311f49b04bcb67,eb8f08851b37a094c4311f49b04bcb6e"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=6acda3e8-d5e7-411d-8381-0041e5267ac2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>datasource</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>DataSource</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="DT Start Xform">ab8f08851b37a094c4311f49b04bcb62</model>
+        <model_id>ab8f08851b37a094c4311f49b04bcb62</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_ab8f08851b37a094c4311f49b04bcb62</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ab8f08851b37a094c4311f49b04bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=38f832e0-05a5-418b-9e21-93a971df4ebc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Findings</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>loadtype</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>LoadType</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DT Start Xform">ab8f08851b37a094c4311f49b04bcb62</model>
+        <model_id>ab8f08851b37a094c4311f49b04bcb62</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_ab8f08851b37a094c4311f49b04bcb62</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>eb8f08851b37a094c4311f49b04bcb6e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=ab8f08851b37a094c4311f49b04bcb62^sys_idNOT IN7f8f08851b37a094c4311f49b04bcba4"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=414353ea-12c1-4576-b489-227d43f5d881</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>impstat</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>ImpStat</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="DT Start Xform">ab8f08851b37a094c4311f49b04bcb62</model>
+        <model_id>ab8f08851b37a094c4311f49b04bcb62</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_ab8f08851b37a094c4311f49b04bcb62</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7f8f08851b37a094c4311f49b04bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=ab8f08851b37a094c4311f49b04bcb62^sys_idNOT IN2f8f08851b37a094c4311f49b04bcb79"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DT Start Xform">ab8f08851b37a094c4311f49b04bcb62</action>
+        <cid>7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2f8f08851b37a094c4311f49b04bcb79</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:36:56</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2f8f08851b37a094c4311f49b04bcb79"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f8f08851b37a094c4311f49b04bcb79</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>bf8f08851b37a094c4311f49b04bcba0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:36:56</sys_updated_on>
+        <value>(function execute(inputs, outputs){
+ try {
+         var load_status = true;
+         var gl = new global.GSLog("sn_vul.usb.logging.verbosity", "DataTheorem_Start_" + inputs.LoadType + " Xform");
+
+         XFC = new global.DataTheorem_XformAtt();
+
+	     XFC.importAtt(inputs.DataSource);
+		 
+       } catch (ex) {
+                gl.logError(gs.getMessage('sn_vul', ex));
+                load_status = false;
+       }
+}
+)(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f8f08851b37a094c4311f49b04bcb79</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>fb8f08851b37a094c4311f49b04bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2f8f08851b37a094c4311f49b04bcb79"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>2f8f08851b37a094c4311f49b04bcb79</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>ff8f08851b37a094c4311f49b04bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>DataSource</field>
+        <id>2f8f08851b37a094c4311f49b04bcb79</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>fb8f08851b37a094c4311f49b04bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2f8f08851b37a094c4311f49b04bcb79</table>
+        <value>{{action.datasource}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>LoadType</field>
+        <id>2f8f08851b37a094c4311f49b04bcb79</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>3b8f08851b37a094c4311f49b04bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2f8f08851b37a094c4311f49b04bcb79</table>
+        <value>{{action.loadtype}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>2f8f08851b37a094c4311f49b04bcb79</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_id>7b8f08851b37a094c4311f49b04bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2f8f08851b37a094c4311f49b04bcb79^sys_idNOT IN2f8f08851b37a094c4311f49b04bcb83,6f8f08851b37a094c4311f49b04bcb7c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>LoadType</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">2f8f08851b37a094c4311f49b04bcb79</model>
+        <model_id>2f8f08851b37a094c4311f49b04bcb79</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2f8f08851b37a094c4311f49b04bcb79</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2f8f08851b37a094c4311f49b04bcb83</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:59:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>DataSource</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">2f8f08851b37a094c4311f49b04bcb79</model>
+        <model_id>2f8f08851b37a094c4311f49b04bcb79</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2f8f08851b37a094c4311f49b04bcb79</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6f8f08851b37a094c4311f49b04bcb7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:59:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2f8f08851b37a094c4311f49b04bcb79^sys_idNOT INab8f08851b37a094c4311f49b04bcb8a"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2b671993-4fd4-4987-9d3d-fece9fe19ab5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>load_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>load_status</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">2f8f08851b37a094c4311f49b04bcb79</model>
+        <model_id>2f8f08851b37a094c4311f49b04bcb79</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2f8f08851b37a094c4311f49b04bcb79</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ab8f08851b37a094c4311f49b04bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_ab8f08851b37a094c4311f49b04bcb62^sys_idNOT IN278f08851b37a094c4311f49b04bcb6d,ef8f08851b37a094c4311f49b04bcb76"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>datasource</element>
+        <help/>
+        <hint/>
+        <label>DataSource</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ab8f08851b37a094c4311f49b04bcb62</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>278f08851b37a094c4311f49b04bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>loadtype</element>
+        <help/>
+        <hint/>
+        <label>LoadType</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ab8f08851b37a094c4311f49b04bcb62</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ef8f08851b37a094c4311f49b04bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_ab8f08851b37a094c4311f49b04bcb62^sys_idNOT INb78f08851b37a094c4311f49b04bcbaa"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>impstat</element>
+        <help/>
+        <hint/>
+        <label>ImpStat</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ab8f08851b37a094c4311f49b04bcb62</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 16:58:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b78f08851b37a094c4311f49b04bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 16:58:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=ab8f08851b37a094c4311f49b04bcb62^sys_idNOT INe72254851b77a094c4311f49b04bcbb4"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="DT Start Xform">ab8f08851b37a094c4311f49b04bcb62</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e72254851b77a094c4311f49b04bcbb4","name":"plan"}}</plan>
+        <snapshot>2178d8cd1bf7a094c4311f49b04bcbe5</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e72254851b77a094c4311f49b04bcbb4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:37:02</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation>This initiates the loading of the import set table and subsequently removing the This initiates the start of the tranforms related to the LoadType which could be Vulnerability Findings or Vulnerability Targets.</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This initiates the start of the tranforms related to the LoadType which could be Vulnerability Findings or Vulnerability Targets.</description>
+        <internal_name>dt_start_xform</internal_name>
+        <label_cache>[{"name":"{{action.datasource}}","label":"action➛DataSource","type":"action","ref":""},{"name":"{{action.loadtype}}","label":"action➛LoadType","type":"action","ref":""},{"name":"{{step[7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70].load_status}}","label":"step➛Script step➛load_status","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>DT Start Xform</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="DT Start Xform">ab8f08851b37a094c4311f49b04bcb62</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>932214851b77a094c4311f49b04bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=932214851b77a094c4311f49b04bcb69"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>932214851b77a094c4311f49b04bcb69</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>df2214851b77a094c4311f49b04bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">572214851b77a094c4311f49b04bcbb3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=932214851b77a094c4311f49b04bcb69"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>impstat</field>
+        <id>932214851b77a094c4311f49b04bcb69</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>5f2214851b77a094c4311f49b04bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table>var__m_sys_hub_action_output_932214851b77a094c4311f49b04bcb69</table>
+        <value>{{step[7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70].load_status}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=932214851b77a094c4311f49b04bcb69^sys_idNOT INd32214851b77a094c4311f49b04bcb7c"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DT Start Xform">932214851b77a094c4311f49b04bcb69</action>
+        <cid>7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d32214851b77a094c4311f49b04bcb7c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:37:01</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d32214851b77a094c4311f49b04bcb7c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d32214851b77a094c4311f49b04bcb7c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>1b2214851b77a094c4311f49b04bcbaf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:37:01</sys_updated_on>
+        <value>(function execute(inputs, outputs){
+ try {
+         var load_status = true;
+         var gl = new global.GSLog("sn_vul.usb.logging.verbosity", "DataTheorem_Start_" + inputs.LoadType + " Xform");
+
+         XFC = new global.DataTheorem_XformAtt();
+
+	     XFC.importAtt(inputs.DataSource);
+		 
+       } catch (ex) {
+                gl.logError(gs.getMessage('sn_vul', ex));
+                load_status = false;
+       }
+}
+)(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d32214851b77a094c4311f49b04bcb7c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>572214851b77a094c4311f49b04bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d32214851b77a094c4311f49b04bcb7c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>d32214851b77a094c4311f49b04bcb7c</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>132214851b77a094c4311f49b04bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>DataSource</field>
+        <id>d32214851b77a094c4311f49b04bcb7c</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>572214851b77a094c4311f49b04bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d32214851b77a094c4311f49b04bcb7c</table>
+        <value>{{action.datasource}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>LoadType</field>
+        <id>d32214851b77a094c4311f49b04bcb7c</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>932214851b77a094c4311f49b04bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d32214851b77a094c4311f49b04bcb7c</table>
+        <value>{{action.loadtype}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>d32214851b77a094c4311f49b04bcb7c</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>d32214851b77a094c4311f49b04bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d32214851b77a094c4311f49b04bcb7c^sys_idNOT IN132214851b77a094c4311f49b04bcb86,932214851b77a094c4311f49b04bcb7f"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>LoadType</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>LoadType</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d32214851b77a094c4311f49b04bcb7c</model>
+        <model_id>d32214851b77a094c4311f49b04bcb7c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d32214851b77a094c4311f49b04bcb7c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>132214851b77a094c4311f49b04bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>DataSource</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>DataSource</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">d32214851b77a094c4311f49b04bcb7c</model>
+        <model_id>d32214851b77a094c4311f49b04bcb7c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d32214851b77a094c4311f49b04bcb7c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>932214851b77a094c4311f49b04bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d32214851b77a094c4311f49b04bcb7c^sys_idNOT IN172214851b77a094c4311f49b04bcb99"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2b671993-4fd4-4987-9d3d-fece9fe19ab5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>load_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>load_status</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">d32214851b77a094c4311f49b04bcb7c</model>
+        <model_id>d32214851b77a094c4311f49b04bcb7c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d32214851b77a094c4311f49b04bcb7c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>172214851b77a094c4311f49b04bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=932214851b77a094c4311f49b04bcb69^sys_idNOT IN932214851b77a094c4311f49b04bcb6a,932214851b77a094c4311f49b04bcb71"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=6acda3e8-d5e7-411d-8381-0041e5267ac2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>datasource</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>DataSource</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="DT Start Xform">932214851b77a094c4311f49b04bcb69</model>
+        <model_id>932214851b77a094c4311f49b04bcb69</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_932214851b77a094c4311f49b04bcb69</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>932214851b77a094c4311f49b04bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=38f832e0-05a5-418b-9e21-93a971df4ebc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Findings</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>loadtype</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>LoadType</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="DT Start Xform">932214851b77a094c4311f49b04bcb69</model>
+        <model_id>932214851b77a094c4311f49b04bcb69</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_932214851b77a094c4311f49b04bcb69</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>932214851b77a094c4311f49b04bcb71</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=932214851b77a094c4311f49b04bcb69^sys_idNOT IN572214851b77a094c4311f49b04bcbb3"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=414353ea-12c1-4576-b489-227d43f5d881</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>impstat</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>ImpStat</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="DT Start Xform">932214851b77a094c4311f49b04bcb69</model>
+        <model_id>932214851b77a094c4311f49b04bcb69</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_932214851b77a094c4311f49b04bcb69</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>572214851b77a094c4311f49b04bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=932214851b77a094c4311f49b04bcb69^sys_idNOT INd32214851b77a094c4311f49b04bcb7c"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="DT Start Xform">932214851b77a094c4311f49b04bcb69</action>
+        <cid>7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d32214851b77a094c4311f49b04bcb7c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:37:01</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d32214851b77a094c4311f49b04bcb7c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d32214851b77a094c4311f49b04bcb7c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>1b2214851b77a094c4311f49b04bcbaf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:37:01</sys_updated_on>
+        <value>(function execute(inputs, outputs){
+ try {
+         var load_status = true;
+         var gl = new global.GSLog("sn_vul.usb.logging.verbosity", "DataTheorem_Start_" + inputs.LoadType + " Xform");
+
+         XFC = new global.DataTheorem_XformAtt();
+
+	     XFC.importAtt(inputs.DataSource);
+		 
+       } catch (ex) {
+                gl.logError(gs.getMessage('sn_vul', ex));
+                load_status = false;
+       }
+}
+)(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d32214851b77a094c4311f49b04bcb7c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>572214851b77a094c4311f49b04bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d32214851b77a094c4311f49b04bcb7c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>d32214851b77a094c4311f49b04bcb7c</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>132214851b77a094c4311f49b04bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>DataSource</field>
+        <id>d32214851b77a094c4311f49b04bcb7c</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>572214851b77a094c4311f49b04bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d32214851b77a094c4311f49b04bcb7c</table>
+        <value>{{action.datasource}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>LoadType</field>
+        <id>d32214851b77a094c4311f49b04bcb7c</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>932214851b77a094c4311f49b04bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d32214851b77a094c4311f49b04bcb7c</table>
+        <value>{{action.loadtype}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>d32214851b77a094c4311f49b04bcb7c</id>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_id>d32214851b77a094c4311f49b04bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d32214851b77a094c4311f49b04bcb7c^sys_idNOT IN132214851b77a094c4311f49b04bcb86,932214851b77a094c4311f49b04bcb7f"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>LoadType</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>LoadType</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d32214851b77a094c4311f49b04bcb7c</model>
+        <model_id>d32214851b77a094c4311f49b04bcb7c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d32214851b77a094c4311f49b04bcb7c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>132214851b77a094c4311f49b04bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>DataSource</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>DataSource</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">d32214851b77a094c4311f49b04bcb7c</model>
+        <model_id>d32214851b77a094c4311f49b04bcb7c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d32214851b77a094c4311f49b04bcb7c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_data_source">sys_data_source</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>932214851b77a094c4311f49b04bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d32214851b77a094c4311f49b04bcb7c^sys_idNOT IN172214851b77a094c4311f49b04bcb99"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=2b671993-4fd4-4987-9d3d-fece9fe19ab5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>load_status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>load_status</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">d32214851b77a094c4311f49b04bcb7c</model>
+        <model_id>d32214851b77a094c4311f49b04bcb7c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d32214851b77a094c4311f49b04bcb7c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>172214851b77a094c4311f49b04bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_932214851b77a094c4311f49b04bcb69^sys_idNOT IN572214851b77a094c4311f49b04bcb79,db2214851b77a094c4311f49b04bcb6f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>loadtype</element>
+        <help/>
+        <hint/>
+        <label>LoadType</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_932214851b77a094c4311f49b04bcb69</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>572214851b77a094c4311f49b04bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>datasource</element>
+        <help/>
+        <hint/>
+        <label>DataSource</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_932214851b77a094c4311f49b04bcb69</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>db2214851b77a094c4311f49b04bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_932214851b77a094c4311f49b04bcb69^sys_idNOT IN5f2214851b77a094c4311f49b04bcbb8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>impstat</element>
+        <help/>
+        <hint/>
+        <label>ImpStat</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_932214851b77a094c4311f49b04bcb69</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:09:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5f2214851b77a094c4311f49b04bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:09:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

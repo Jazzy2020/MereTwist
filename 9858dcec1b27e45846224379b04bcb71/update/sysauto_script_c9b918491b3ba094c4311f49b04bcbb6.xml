@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>DataTheorem Download</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="VR System">c98e5bb253333200e8f9f745911c087a</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-04-26 17:42:27</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[try {
+    var tl = new x_usbna_dto.DataTheoremSubflowTrigger();
+    tl.executeInt();
+} catch (e) {
+    gl = new global.GSLog("sn_vul.usb.logging.verbosity", "[usb-vul-dt] DataTheorem Download");
+    gl.logError(gs.getMessage('sn_vul', e));
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>vxsrin2</sys_created_by>
+        <sys_created_on>2021-04-26 17:43:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c9b918491b3ba094c4311f49b04bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DataTheorem Download</sys_name>
+        <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+        <sys_update_name>sysauto_script_c9b918491b3ba094c4311f49b04bcbb6</sys_update_name>
+        <sys_updated_by>vxsrin2</sys_updated_by>
+        <sys_updated_on>2021-04-26 17:43:23</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

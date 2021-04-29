@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_portal_url" label="portal_url" language="en" table="x_usbna_dto_mobile_defn">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_portal_url</element>
+            <help/>
+            <hint/>
+            <label>portal_url</label>
+            <language>en</language>
+            <name>x_usbna_dto_mobile_defn</name>
+            <plural>portal_urls</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>vxsrin2</sys_created_by>
+            <sys_created_on>2021-04-20 16:27:50</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7d1f8d4b1b2be4d046224379b04bcbd9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>portal_url</sys_name>
+            <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
+            <sys_update_name>sys_documentation_x_usbna_dto_mobile_defn_u_portal_url_en</sys_update_name>
+            <sys_updated_by>vxsrin2</sys_updated_by>
+            <sys_updated_on>2021-04-20 16:27:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
