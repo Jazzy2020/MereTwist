@@ -12,7 +12,6 @@
         <description>SubFlow to kickoff the processing of Twistlock Hosts related Vulns</description>
         <internal_name>data_theorem_process</internal_name>
         <label_cache>[{"name":"81780d42-8bc6-409e-ba27-f7e7bda0145d.remvstat","label":"1➛RemvStat","reference_display":"RemvStat","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6e7f1871-60ff-482f-b289-a67c7fb1439e"}},{"name":"c8f399f6-f952-402b-9829-74a2a85e86bd.impstat","label":"12➛ImpStat","reference_display":"ImpStat","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"414353ea-12c1-4576-b489-227d43f5d881"}},{"name":"de2fcf12-6c2d-468b-845f-6c1ae980d762.impstat","label":"10➛ImpStat","reference_display":"ImpStat","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"414353ea-12c1-4576-b489-227d43f5d881"}},{"name":"816eeee6-9b42-4d13-a9e8-30a2305fe727.impstat","label":"8➛ImpStat","reference_display":"ImpStat","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"414353ea-12c1-4576-b489-227d43f5d881"}},{"name":"3a89dd91-33f4-42a4-afa6-33ed8a3e8fbe.impstat","label":"6➛ImpStat","reference_display":"ImpStat","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"414353ea-12c1-4576-b489-227d43f5d881"}},{"name":"subflow.datasource_2","label":"Input➛DataSource_2","reference":"sys_data_source","reference_display":"Data Source","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"9ef14828-a563-48ee-874c-796f3114410d","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"7731f99c-aa20-4621-8ed3-70828dbe11b0.impstat","label":"4➛ImpStat","reference_display":"ImpStat","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"414353ea-12c1-4576-b489-227d43f5d881"}},{"name":"subflow.datasource_1","label":"Input➛DataSource_1","reference":"sys_data_source","reference_display":"Data Source","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"24a0a162-d986-4cf5-98fe-d59d2374fc6f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow._","label":"Input➛Datasource_1","reference":"sys_data_source","reference_display":"Data Source","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0780eb30-48b8-4c7e-8960-8dca025a5e68","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"d7b7d55f-6e2b-416f-9325-c578db15676d.impstat","label":"2➛ImpStat","reference_display":"ImpStat","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"414353ea-12c1-4576-b489-227d43f5d881"}},{"name":"subflow.httptimeout","label":"Input➛httptimeout","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.connectalias","label":"Input➛connectalias","reference":"sys_alias","reference_display":"Connection \u0026 Credential Aliases","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"124142e8-ddf4-4c9c-8925-9aff305c64e2.hostinfo","label":"1➛HostInfo","reference_display":"HostInfo","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"de3f3dea-036b-4537-8744-7f0b98378763"}},{"name":"124142e8-ddf4-4c9c-8925-9aff305c64e2.process_status","label":"1➛process_status","reference_display":"process_status","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2cb81291-07f4-45d4-84c8-2a19a1ab0baa"}},{"name":"b7c9eac0-e159-4e40-9a7c-fbb6cbcf3c0b.impstat","label":"5➛ImpStat","reference_display":"ImpStat","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"414353ea-12c1-4576-b489-227d43f5d881"}},{"name":"fc49df4c-a25e-4332-a249-2788c15c3ae0.process_status","label":"3➛process_status","reference_display":"process_status","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"bdca4d23-a1d1-4b40-8df9-ea3528444293"}},{"name":"358f1ec4-4a72-45fb-905d-1bf0681064cb.process_status","label":"2.1➛process_status","reference_display":"process_status","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"50afed46-efd5-4200-927e-711740842d5c.hostinfo","label":"1➛HostInfo","reference_display":"HostInfo","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true"}},{"name":"50afed46-efd5-4200-927e-711740842d5c.process_status","label":"1➛process_status","reference_display":"process_status","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.postfix","label":"Input➛postfix","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ffec2191-be7d-4ee6-8c9c-b97e6784d29f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"1216918a-fd84-4e9b-8726-4d5849c62f6c.remvstat","label":"1➛RemvStat","reference_display":"RemvStat","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6e7f1871-60ff-482f-b289-a67c7fb1439e"}},{"name":"subflow.restmsg","label":"Input➛restmsg","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.connectsrc","label":"Input➛connectsrc","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.impsettable","label":"Input➛ImpSetTable","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"7b841c32-bd51-4b17-95e2-2b552026d53b.impstat","label":"1➛ImpStat","reference_display":"ImpStat","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"414353ea-12c1-4576-b489-227d43f5d881"}},{"name":"a228441d-255c-4757-99c1-c94d0ccac43f.impstat","label":"3➛ImpStat","reference_display":"ImpStat","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"boolean","uiUniqueId":"414353ea-12c1-4576-b489-227d43f5d881"}}]</label_cache>
-        <latest_snapshot>3baf8e031bafa8d046224379b04bcb2a</latest_snapshot>
         <master_snapshot>3baf8e031bafa8d046224379b04bcb2a</master_snapshot>
         <name>Data Theorem Process</name>
         <natlang/>
@@ -3406,12 +3405,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b62f0a871b6fa8d046224379b04bcb86</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>DataSource_2</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c76a35c71b6b68d046224379b04bcb33_datasource_2_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-20 21:07:48</sys_updated_on>
         <url/>
@@ -3431,12 +3430,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f62f0a871b6fa8d046224379b04bcb4e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>DataSource_1</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c76a35c71b6b68d046224379b04bcb33_datasource_1_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-20 21:07:48</sys_updated_on>
         <url/>
@@ -3456,12 +3455,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fe2f0a871b6fa8d046224379b04bcb9b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>http_timeout</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c76a35c71b6b68d046224379b04bcb33_http_timeout_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-20 21:07:48</sys_updated_on>
         <url/>
@@ -6437,12 +6436,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0cbfce031bafa8d046224379b04bcb66</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>http_timeout</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3baf8e031bafa8d046224379b04bcb2a_http_timeout_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-20 21:10:04</sys_updated_on>
         <url/>
@@ -6462,12 +6461,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>80bfce031bafa8d046224379b04bcb0e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>DataSource_1</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3baf8e031bafa8d046224379b04bcb2a_datasource_1_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-20 21:10:04</sys_updated_on>
         <url/>
@@ -6487,15 +6486,19 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c4bfce031bafa8d046224379b04bcb18</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>DataSource_2</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3baf8e031bafa8d046224379b04bcb2a_datasource_2_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-20 21:10:04</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>c76a35c71b6b68d046224379b04bcb33</sys_id>
+        <latest_snapshot>3baf8e031bafa8d046224379b04bcb2a</latest_snapshot>
+    </sys_hub_flow>
 </record_update>

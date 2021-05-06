@@ -13,7 +13,6 @@
         <ih_action>false</ih_action>
         <internal_name>dt_load_attachments</internal_name>
         <label_cache>[{"name":"{{action.datasource}}","label":"action➛DataSource","type":"action","ref":""},{"name":"{{action.loadtype}}","label":"action➛LoadType","type":"action","ref":""},{"name":"{{step[7dd6cb03-bf8b-4dc2-9fca-3c1f0328ee70].load_status}}","label":"step➛Script step➛load_status","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>8d4f40451b37a094c4311f49b04bcbf1</latest_snapshot>
         <master_snapshot>8d98ed571be7e05446224379b04bcbc6</master_snapshot>
         <name>DT Load Attachments</name>
         <natlang/>
@@ -1103,12 +1102,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>dd3fc8051b37a094c4311f49b04bcb48</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>LoadType</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_78c7a19f1ba7e05446224379b04bcbe5_loadtype_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-26 16:56:34</sys_updated_on>
         <url/>
@@ -1128,12 +1127,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f8c7e19f1ba7e05446224379b04bcb4b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>DataSource</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_78c7a19f1ba7e05446224379b04bcbe5_datasource_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-21 12:54:06</sys_updated_on>
         <url/>
@@ -1154,12 +1153,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>38c7e19f1ba7e05446224379b04bcbb9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ImpStat</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_78c7a19f1ba7e05446224379b04bcbe5_impstat_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-21 12:54:07</sys_updated_on>
         <url/>
@@ -2288,12 +2287,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>019821971be7e05446224379b04bcb0f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>DataSource</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_8d98ed571be7e05446224379b04bcbc6_datasource_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-21 12:57:41</sys_updated_on>
         <url/>
@@ -2313,12 +2312,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>954f80451b37a094c4311f49b04bcb48</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>LoadType</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_8d98ed571be7e05446224379b04bcbc6_loadtype_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-26 16:56:51</sys_updated_on>
         <url/>
@@ -2339,15 +2338,19 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>099821971be7e05446224379b04bcb3b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ImpStat</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_8d98ed571be7e05446224379b04bcbc6_impstat_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-21 12:57:41</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>78c7a19f1ba7e05446224379b04bcbe5</sys_id>
+        <latest_snapshot>8d98ed571be7e05446224379b04bcbc6</latest_snapshot>
+    </sys_hub_action_type_definition>
 </record_update>

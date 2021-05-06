@@ -13,7 +13,6 @@
         <ih_action>false</ih_action>
         <internal_name>dt_remove_attachment_files</internal_name>
         <label_cache>[{"name":"{{action.data_source}}","label":"action➛DataSource_1","type":"action","ref":""},{"name":"{{action.import_set_table_name}}","label":"action➛Import set table name","type":"action","ref":""},{"name":"{{action.datasource_2}}","label":"action➛DataSource_2","type":"action","ref":""},{"name":"{{step[01ae5abe-b572-4b0d-9043-d2097959d461].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[01ae5abe-b572-4b0d-9043-d2097959d461].rmvstat}}","label":"step➛Script step➛RmvStat","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>6796dc811bf7a094c4311f49b04bcbb9</latest_snapshot>
         <master_snapshot>239610c11bf7a094c4311f49b04bcb2c</master_snapshot>
         <name>DT Remove Attachment Files </name>
         <natlang/>
@@ -1133,12 +1132,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3a0950481b73ac90c4311f49b04bcb73</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>DataSource_1</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f60950481b73ac90c4311f49b04bcb3e_data_source_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-26 17:26:33</sys_updated_on>
         <url/>
@@ -1158,12 +1157,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>941614cd1bb7a094c4311f49b04bcb67</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>DataSource_2</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f60950481b73ac90c4311f49b04bcb3e_datasource_2_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-26 17:26:33</sys_updated_on>
         <url/>
@@ -1184,12 +1183,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f60990481b73ac90c4311f49b04bcb13</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>RemvStat</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f60950481b73ac90c4311f49b04bcb3e_remvstat_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-23 15:05:38</sys_updated_on>
         <url/>
@@ -2324,12 +2323,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bb9610c11bf7a094c4311f49b04bcb96</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>DataSource_2</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_239610c11bf7a094c4311f49b04bcb2c_datasource_2_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
         <url/>
@@ -2349,12 +2348,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>eb9610c11bf7a094c4311f49b04bcb67</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>DataSource_1</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_239610c11bf7a094c4311f49b04bcb2c_data_source_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
         <url/>
@@ -2375,15 +2374,19 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>739610c11bf7a094c4311f49b04bcbe3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>RemvStat</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_239610c11bf7a094c4311f49b04bcb2c_remvstat_en</sys_update_name>
         <sys_updated_by>vxsrin2</sys_updated_by>
         <sys_updated_on>2021-04-26 17:28:58</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>f60950481b73ac90c4311f49b04bcb3e</sys_id>
+        <latest_snapshot>239610c11bf7a094c4311f49b04bcb2c</latest_snapshot>
+    </sys_hub_action_type_definition>
 </record_update>
