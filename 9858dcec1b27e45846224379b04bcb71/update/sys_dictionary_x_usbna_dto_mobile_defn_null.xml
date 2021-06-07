@@ -42,7 +42,7 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>0</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
@@ -50,7 +50,7 @@
         <sys_created_on>2021-04-20 16:27:50</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f91f8d4b1b2be4d046224379b04bcb54</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>x_usbna_dto_mobile_defn</sys_name>
         <sys_package display_value="DataTheorem" source="x_usbna_dto">9858dcec1b27e45846224379b04bcb71</sys_package>
         <sys_policy/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="DataTheorem">9858dcec1b27e45846224379b04bcb71</sys_scope>
         <sys_update_name>sys_dictionary_x_usbna_dto_mobile_defn_null</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-04-28 11:04:26</sys_updated_on>
+        <sys_updated_on>2021-05-04 11:01:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
